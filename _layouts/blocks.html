@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% comment %}
+	This layout renders block sections
+{% endcomment %}
+
+
+{% for section in page.page_sections %}
+{% include block-{{ section.block }}.html %}
+{% endfor %}

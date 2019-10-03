@@ -1,0 +1,58 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+//Colors
+//$blue:    #111E6C;
+//$indigo:  #6610f2;
+//$purple:  #6f42c1;
+//$pink:    #e83e8c;
+//$red:     #dc3545;
+//$orange:  #fd7e14;
+//$yellow:  #ffc107;
+//$green:   #28a745;
+//$teal:    #20c997;
+//$cyan:    #17a2b8;
+
+
+//Theme
+//$theme-colors: (
+  //"primary":    $blue,
+  //"secondary":  $secondary,
+  //"success":    $success,
+  //"info":       $info,
+  //"warning":    $warning,
+  //"danger":     $danger,
+  //"light":      $light,
+  //"dark":       $dark
+//);
+
+//Custom Gradient options
+//.bg-primary,
+//.btn-primary,
+//.badge-primary,
+//.alert-primary {
+    //@include gradient-x(#418fde, #fdb927);
+//}
+
+$body-bg: #333;
+$modal-content-bg: #FAAE15;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1300px
+);
+
+
+//Font Family
+$font-family-sans-serif:      Roboto, Arial, sans-serif;
+//$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
+
+//Other Cool Add-ons
+//$enable-gradients: true;
+
+@import "bootstrap/bootstrap";
